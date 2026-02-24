@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Infrastructure Dashboard - Adegan Global Enterprise</title>
+    <link rel="stylesheet" href="styles.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>☁️ Cloud Infrastructure Dashboard</h1>
+        <p>Adegan Global Enterprise | Enterprise-Grade Cloud Platform</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#overview" class="active">Overview</a></li>
+            <li><a href="#physical">Physical Infrastructure</a></li>
+            <li><a href="#virtualization">Virtualization</a></li>
+            <li><a href="#management">Cloud Management</a></li>
+            <li><a href="#security">Security</a></li>
+            <li><a href="#developer">Developer Tools</a></li>
+            <li><a href="#features">Cloud Features</a></li>
+            <li><a href="#advanced">Advanced</a></li>
+            <li><a href="#compliance">Compliance</a></li>
+            <li><a href="#upload">File Upload</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Overview Section -->
+        <section id="overview">
+            <h2>📊 System Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">99.9%</div>
+                    <div class="stat-label">Uptime</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">24</div>
+                    <div class="stat-label">Active Servers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">156</div>
+                    <div class="stat-label">Virtual Machines</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">892</div>
+                    <div class="stat-label">Containers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">45TB</div>
+                    <div class="stat-label">Storage Used</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">1.2K</div>
+                    <div class="stat-label">Active Users</div>
+                </div>
+            </div>
+
+            <div class="grid-container grid-2">
+                <div class="card">
+                    <h3>🖥️ Server Status</h3>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 78%"></div>
+                        </div>
+                        <div class="progress-text">
+                            <span>CPU Usage</span>
+                            <span>78%</span>
+                        </div>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 65%"></div>
+                        </div>
+                        <div class="progress-text">
+                            <span>Memory Usage</span>
+                            <span>65%</span>
+                        </div>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 82%"></div>
+                        </div>
+                        <div class="progress-text">
+                            <span>Storage Usage</span>
+                            <span>82%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🌐 Network Status</h3>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 45%"></div>
+                        </div>
+                        <div class="progress-text">
+                            <span>Bandwidth Usage</span>
+                            <span>45%</span>
+                        </div>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 92%"></div>
+                        </div>
+                        <div class="progress-text">
+                            <span>Network Availability</span>
+                            <span>92%</span>
+                        </div>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 88%"></div>
+                        </div>
+                        <div class="progress-text">
+                            <span>Connection Quality</span>
+                            <span>88%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Physical Infrastructure Section -->
+        <section id="physical">
+            <h2>🖥️ Physical Infrastructure (Hardware Layer)</h2>
+            <div class="grid-container grid-3">
+                <div class="card">
+                    <h3><span class="card-icon">🖥️</span> Servers</h3>
+                    <span class="status online">Online</span>
+                    <ul class="component-list">
+                        <li>Application Servers (8)</li>
+                        <li>Database Servers (6)</li>
+                        <li>Storage Servers (4)</li>
+                        <li>Backup Servers (3)</li>
+                        <li>Virtualization Servers (3)</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">💾</span> Storage Systems</h3>
+                    <span class="status online">Online</span>
+                    <ul class="component-list">
+                        <li>SSD/NVMe Storage</li>
+                        <li>SAN (Storage Area Network)</li>
+                        <li>NAS (Network Attached Storage)</li>
+                        <li>Distributed Storage Cluster</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🌐</span> Networking Equipment</h3>
+                    <span class="status online">Online</span>
+                    <ul class="component-list">
+                        <li>Core Routers</li>
+                        <li>Switches (Layer 2 & 3)</li>
+                        <li>Firewalls</li>
+                        <li>Load Balancers</li>
+                        <li>Gateway Servers</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🔌</span> Power & Environment</h3>
+                    <span class="status online">Online</span>
+                    <ul class="component-list">
+                        <li>UPS Systems</li>
+                        <li>Backup Generators</li>
+                        <li>Cooling Systems</li>
+                        <li>Rack Cabinets</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Virtualization Layer Section -->
+        <section id="virtualization">
+            <h2>2️⃣ Virtualization Layer (Cloud Engine)</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">This turns physical servers into virtual cloud resources.</p>
+            <div class="grid-container grid-2">
+                <div class="card">
+                    <h3><span class="card-icon">⚙️</span> Hypervisor</h3>
+                    <span class="status online">Active</span>
+                    <ul class="component-list">
+                        <li>VMware ESXi</li>
+                        <li>KVM (Kernel-based Virtual Machine)</li>
+                        <li>Hyper-V</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">📦</span> Virtual Machines</h3>
+                    <span class="status online">156 Running</span>
+                    <ul class="component-list">
+                        <li>Linux VMs (98)</li>
+                        <li>Windows VMs (45)</li>
+                        <li>Custom OS VMs (13)</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🐳</span> Containers</h3>
+                    <span class="status online">892 Active</span>
+                    <ul class="component-list">
+                        <li>Docker Containers</li>
+                        <li>Container Images</li>
+                        <li>Container Networks</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">☸️</span> Container Orchestration</h3>
+                    <span class="status online">Kubernetes Cluster</span>
+                    <ul class="component-list">
+                        <li>Kubernetes Master Nodes</li>
+                        <li>Worker Nodes</li>
+                        <li>Pod Management</li>
+                        <li>Service Discovery</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🔗</span> Software Defined Networking</h3>
+                    <span class="status online">Configured</span>
+                    <ul class="component-list">
+                        <li>Virtual Networks</li>
+                        <li>Network Policies</li>
+                        <li>Load Balancing</li>
+                        <li>Network Segmentation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cloud Management Platform Section -->
+        <section id="management">
+            <h2>3️⃣ Core Cloud Software Components</h2>
+            <div class="grid-container grid-3">
+                <div class="card">
+                    <h3><span class="card-icon">☁️</span> Cloud Management Platform</h3>
+                    <span class="status online">Active</span>
+                    <ul class="component-list">
+                        <li>OpenStack</li>
+                        <li>VMware vCloud</li>
+                        <li>Proxmox VE</li>
+                        <li>Custom-built Cloud Controller</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">📂</span> Storage Management</h3>
+                    <span class="status online">Operational</span>
+                    <ul class="component-list">
+                        <li>Object Storage (S3 Compatible)</li>
+                        <li>Block Storage</li>
+                        <li>File Storage</li>
+                        <li>Storage Pools</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">📡</span> Networking Control</h3>
+                    <span class="status online">Configured</span>
+                    <ul class="component-list">
+                        <li>Virtual Private Cloud (VPC)</li>
+                        <li>IP Management</li>
+                        <li>DNS Management</li>
+                        <li>VPN Server</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Security Components Section -->
+        <section id="security">
+            <h2>4️⃣ Security Components</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">Enterprise-grade security for financial systems like Global Pilgrim Bank Plc</p>
+            <div class="grid-container grid-3">
+                <div class="card">
+                    <h3><span class="card-icon">🔒</span> Encryption & Access</h3>
+                    <span class="status online">Enabled</span>
+                    <ul class="component-list">
+                        <li>SSL/TLS Encryption</li>
+                        <li>Identity & Access Management (IAM)</li>
+                        <li>Multi-Factor Authentication (MFA)</li>
+                        <li>Role-Based Access Control</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🛡️</span> Threat Protection</h3>
+                    <span class="status online">Active</span>
+                    <ul class="component-list">
+                        <li>Intrusion Detection System (IDS)</li>
+                        <li>Intrusion Prevention System (IPS)</li>
+                        <li>DDoS Protection</li>
+                        <li>Firewall Rules</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">📊</span> Monitoring & Compliance</h3>
+                    <span class="status online">Monitoring</span>
+                    <ul class="component-list">
+                        <li>SIEM Monitoring System</li>
+                        <li>Security Analytics</li>
+                        <li>Compliance Reporting</li>
+                        <li>Audit Logs</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Developer Tools Section -->
+        <section id="developer">
+            <h2>5️⃣ Developer & Deployment Tools</h2>
+            <div class="grid-container grid-2">
+                <div class="card">
+                    <h3><span class="card-icon">🌐</span> Web Servers</h3>
+                    <span class="status online">Running</span>
+                    <ul class="component-list">
+                        <li>Apache HTTP Server</li>
+                        <li>Nginx</li>
+                        <li>Reverse Proxy Configuration</li>
+                        <li>SSL Termination</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🗄️</span> Databases</h3>
+                    <span class="status online">Connected</span>
+                    <ul class="component-list">
+                        <li>MySQL / MariaDB</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>Redis Cache</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🔄</span> CI/CD Pipeline</h3>
+                    <span class="status online">Active</span>
+                    <ul class="component-list">
+                        <li>GitHub Actions</li>
+                        <li>GitLab CI</li>
+                        <li>Automated Testing</li>
+                        <li>Continuous Deployment</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">📈</span> Monitoring Tools</h3>
+                    <span class="status online">Collecting</span>
+                    <ul class="component-list">
+                        <li>Prometheus</li>
+                        <li>Grafana Dashboards</li>
+                        <li>Alert Manager</li>
+                        <li>Performance Metrics</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🔌</span> API Gateway</h3>
+                    <span class="status online">Operational</span>
+                    <ul class="component-list">
+                        <li>REST API Endpoints</li>
+                        <li>GraphQL Support</li>
+                        <li>API Authentication</li>
+                        <li>Rate Limiting</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cloud Features Section -->
+        <section id="features">
+            <h2>6️⃣ Cloud Features</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">What makes this a "Full Function" cloud platform</p>
+            <div class="grid-container grid-3">
+                <div class="card">
+                    <h3><span class="card-icon">📁</span> File Management</h3>
+                    <ul class="component-list">
+                        <li>File Upload & Hosting</li>
+                        <li>HTML, CSS, JS Support</li>
+                        <li>PDF, DOC, Images</li>
+                        <li>Auto-detect index.html</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">👥</span> User Management</h3>
+                    <ul class="component-list">
+                        <li>Project Creation & Deletion</li>
+                        <li>Admin Dashboard</li>
+                        <li>User Authentication</li>
+                        <li>Role-Based Permissions</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">💰</span> Business Features</h3>
+                    <ul class="component-list">
+                        <li>API Access</li>
+                        <li>Billing System</li>
+                        <li>Resource Allocation</li>
+                        <li>Usage Analytics</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🔄</span> Operations</h3>
+                    <ul class="component-list">
+                        <li>Backup & Restore</li>
+                        <li>Logging & Analytics</li>
+                        <li>Gateway Server</li>
+                        <li>IP Routing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advanced Features Section -->
+        <section id="advanced">
+            <h2>7️⃣ Advanced Features (Enterprise Level)</h2>
+            <div class="grid-container grid-2">
+                <div class="card">
+                    <h3><span class="card-icon">🤖</span> AI & Automation</h3>
+                    <ul class="component-list">
+                        <li>AI Monitoring</li>
+                        <li>Predictive Analytics</li>
+                        <li>Anomaly Detection</li>
+                        <li>Automated Scaling</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🌍</span> High Availability</h3>
+                    <ul class="component-list">
+                        <li>Auto-scaling</li>
+                        <li>Disaster Recovery Site</li>
+                        <li>Multi-region Replication</li>
+                        <li>Load Balancing</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">⛓️</span> Integration</h3>
+                    <ul class="component-list">
+                        <li>Blockchain Integration</li>
+                        <li>Payment Integration</li>
+                        <li>SMS & Email Alerts</li>
+                        <li>Third-party APIs</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🔔</span> Notifications</h3>
+                    <ul class="component-list">
+                        <li>SMS Alert System</li>
+                        <li>Email Notifications</li>
+                        <li>Push Notifications</li>
+                        <li>Alert Routing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legal & Compliance Section -->
+        <section id="compliance">
+            <h2>8️⃣ Legal & Compliance (Nigeria)</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">Compliance for Lagos, Nigeria financial infrastructure</p>
+            <div class="grid-container grid-3">
+                <div class="card">
+                    <h3><span class="card-icon">📋</span> Corporate Compliance</h3>
+                    <ul class="component-list">
+                        <li>Corporate Registration (CAC)</li>
+                        <li>Business Licenses</li>
+                        <li>Tax Compliance</li>
+                        <li>Annual Returns</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🔐</span> Data Protection</h3>
+                    <ul class="component-list">
+                        <li>NDPR Compliance</li>
+                        <li>Data Privacy Policy</li>
+                        <li>Consent Management</li>
+                        <li>Data Breach Response</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🏦</span> Financial Compliance</h3>
+                    <ul class="component-list">
+                        <li>Central Bank Approval</li>
+                        <li>NITDA Compliance</li>
+                        <li>Cybersecurity Framework</li>
+                        <li>Audit Requirements</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Network Model Section -->
+        <section id="network">
+            <h2>9️⃣ Optional: Satellite-Free Network Model</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">Independent network system infrastructure</p>
+            <div class="grid-container grid-2">
+                <div class="card">
+                    <h3><span class="card-icon">🔗</span> Network Infrastructure</h3>
+                    <ul class="component-list">
+                        <li>Fiber Optic Backbone</li>
+                        <li>Microwave Radio Link</li>
+                        <li>ISP License</li>
+                        <li>Peering Agreements</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3><span class="card-icon">🏢</span> Data Center</h3>
+                    <ul class="component-list">
+                        <li>Private Data Center</li>
+                        <li>Colocation Services</li>
+                        <li>Network Operations Center</li>
+                        <li>24/7 Monitoring</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Architecture Summary Section -->
+        <section id="architecture">
+            <h2>🔟 Cloud Architecture Layers Summary</h2>
+            <div class="grid-container grid-2">
+                <div class="card">
+                    <h3>Layer 1: Physical Layer</h3>
+                    <p style="color: var(--text-secondary);">Hardware infrastructure including servers, storage, networking, and power systems.</p>
+                </div>
+                <div class="card">
+                    <h3>Layer 2: Virtualization Layer</h3>
+                    <p style="color: var(--text-secondary);">Hypervisors, VMs, containers, and orchestration platforms.</p>
+                </div>
+                <div class="card">
+                    <h3>Layer 3: Management Layer</h3>
+                    <p style="color: var(--text-secondary);">Cloud management platforms and control systems.</p>
+                </div>
+                <div class="card">
+                    <h3>Layer 4: Application Layer</h3>
+                    <p style="color: var(--text-secondary);">Web servers, databases, and application services.</p>
+                </div>
+                <div class="card">
+                    <h3>Layer 5: Security Layer</h3>
+                    <p style="color: var(--text-secondary);">Encryption, access control, and threat protection systems.</p>
+                </div>
+                <div class="card">
+                    <h3>Layer 6: Monitoring Layer</h3>
+                    <p style="color: var(--text-secondary);">Performance monitoring, logging, and analytics.</p>
+                </div>
+                <div class="card">
+                    <h3>Layer 7: User Access Layer</h3>
+                    <p style="color: var(--text-secondary);">User interfaces, APIs, and access management.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- File Upload Section -->
+        <section id="upload">
+            <h2>📤 File Upload & Deployment</h2>
+            <div class="upload-section" id="dropZone">
+                <div class="upload-icon">☁️</div>
+                <h3>Upload Your Files</h3>
+                <p style="color: var(--text-secondary); margin: 1rem 0;">Drag and drop files here or click to browse</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Supports: ZIP files, folders, HTML, CSS, JS, PDF, DOC, Images</p>
+                
+                <div class="upload-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('fileInput').click()">
+                        📁 Select Files
+                    </button>
+                    <button class="btn btn-success" onclick="document.getElementById('folderInput').click()">
+                        📂 Select Folder
+                    </button>
+                    <button class="btn btn-primary" onclick="document.getElementById('zipInput').click()">
+                        📦 Upload ZIP
+                    </button>
+                </div>
+
+                <input type="file" id="fileInput" multiple style="display: none;" onchange="handleFileSelect(event)">
+                <input type="file" id="folderInput" webkitdirectory directory multiple style="display: none;" onchange="handleFileSelect(event)">
+                <input type="file" id="zipInput" accept=".zip" style="display: none;" onchange="handleFileSelect(event)">
+            </div>
+
+            <div id="fileList" class="file-list"></div>
+
+            <div class="card" style="margin-top: 2rem;">
+                <h3>🚀 Deployment Options</h3>
+                <div class="upload-buttons">
+                    <button class="btn btn-success" onclick="deployProject()">
+                        🚀 Deploy Project
+                    </button>
+                    <button class="btn btn-danger" onclick="clearFiles()">
+                        🗑️ Clear All Files
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Adegan Global Enterprise | Cloud Infrastructure Dashboard</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Enterprise-Grade Cloud Platform for Global Pilgrim Bank Plc</p>
+    </footer>
+
+    <!-- Modal for file preview -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <h3 id="modalTitle">File Preview</h3>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
